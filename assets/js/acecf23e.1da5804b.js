@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchoro_docs=self.webpackChunkchoro_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/docs.choro.app/blog","blogTitle":"Blog","authorsListPath":"/docs.choro.app/blog/authors"}')}}]);
