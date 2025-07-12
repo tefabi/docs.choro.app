@@ -16,6 +16,7 @@ const config: Config = {
 
   url: 'https://tefabi.github.io',
   baseUrl: '/docs.choro.app/',
+  // baseUrl: '/', // Change this temporarily for local testing
   organizationName: 'tefabi',
   projectName: 'docs.choro.app',
 
