@@ -2,46 +2,28 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Choro Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the complete documentation for **Choro App** - your comprehensive communication platform.
 
-## Getting Started
+## What is Choro?
 
-Get started by **creating a new site**.
+Choro is a modern communication application designed to connect people through messaging, groups, and real-time notifications. Built with privacy and user experience in mind.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Available Documentation
 
-### What you'll need
+### 📋 Legal Documents
+- [Privacy Policy](./legal/privacy-policy) - How we handle your data
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 🚀 Coming Soon
+- **Getting Started** - Installation guides and quick start tutorials
+- **User Guide** - Complete feature documentation  
+- **API Documentation** - For developers integrating with Choro
 
-## Generate a new site
+## Getting Help
 
-Generate a new Docusaurus site using the **classic template**.
+If you need assistance:
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- 📧 Email: [info@choro.app](mailto:info@choro.app)
+- 🌐 Website: [www.choro.app](https://www.choro.app)
+- 📱 Download: Available on iOS and Android (Coming Soon)
