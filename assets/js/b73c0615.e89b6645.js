@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchoro_docs=self.webpackChunkchoro_docs||[]).push([[8328],{2735:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/docs.choro.app/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
