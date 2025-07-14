@@ -165,4 +165,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 If you have any questions about this Privacy Policy, You can contact us:
 
 - By email: info@choro.app
-- By visiting this page on our website: [https://www.choro.app/policy](https://www.choro.app/policy)
+- By visiting this page on our website: [https://docs.choro.app/docs/legal/privacy-policy](https://docs.choro.app/docs/legal/privacy-policy)
