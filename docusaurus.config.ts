@@ -11,9 +11,9 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://tefabi.github.io',
-  baseUrl: '/docs.choro.app/', // Change back for production
-  // baseUrl: '/',
+  // Custom domain configuration
+  url: 'https://docs.choro.app',
+  baseUrl: '/', // Root for custom domain
   organizationName: 'tefabi',
   projectName: 'docs.choro.app',
 
@@ -36,7 +36,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/tefabi/docs.choro.app/tree/main/',
         },
-        blog: false, // Completely disable blog
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -99,8 +99,8 @@ const config: Config = {
               href: 'mailto:info@choro.app',
             },
             {
-              label: 'Feature Requests',
-              href: 'https://github.com/tefabi/docs.choro.app/issues',
+              label: 'Privacy Policy',
+              href: 'https://docs.choro.app/docs/legal/privacy-policy',
             },
           ],
         },

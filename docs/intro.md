@@ -26,4 +26,4 @@ If you need assistance:
 
 - 📧 Email: [info@choro.app](mailto:info@choro.app)
 - 🌐 Website: [www.choro.app](https://www.choro.app)
-- 📱 Download: Available on iOS and Android (Coming Soon)
+- 📱 Privacy Policy: [docs.choro.app/docs/legal/privacy-policy](https://docs.choro.app/docs/legal/privacy-policy)
