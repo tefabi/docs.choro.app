@@ -50,7 +50,12 @@ function HomepageFeatures() {
                 <Link 
                   className="button button--outline button--primary"
                   to="/docs/legal/privacy-policy">
-                  Read Privacy Policy
+                  Privacy Policy
+                </Link>
+                <Link 
+                  className="button button--outline button--primary margin--sm"
+                  to="/docs/legal/terms-of-service">
+                  Terms of Service
                 </Link>
               </div>
             </div>

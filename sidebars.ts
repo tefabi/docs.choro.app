@@ -9,6 +9,7 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         'legal/privacy-policy',
+        'legal/terms-of-service',
       ],
     },
     // Add more sections as you create content:
