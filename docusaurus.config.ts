@@ -11,9 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  // Custom domain configuration
   url: 'https://docs.choro.app',
-  baseUrl: '/', // Root for custom domain
+  baseUrl: '/',
   organizationName: 'tefabi',
   projectName: 'docs.choro.app',
 
@@ -85,6 +84,10 @@ const config: Config = {
               label: 'Privacy Policy',
               to: '/docs/legal/privacy-policy',
             },
+            {
+              label: 'Terms of Service',
+              to: '/docs/legal/terms-of-service',
+            },
           ],
         },
         {
@@ -118,7 +121,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Choro App. Built with ❤️ using Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Choro App.`,
     },
     prism: {
       theme: prismThemes.github,
