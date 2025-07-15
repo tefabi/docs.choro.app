@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Terms of Service
 
 Last updated: July 15, 2025
