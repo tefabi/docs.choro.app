@@ -46,7 +46,6 @@ const config: Config = {
   themeConfig: {
     image: 'img/choro-social-card.jpg',
     navbar: {
-      title: 'Choro',
       logo: {
         alt: 'Choro Logo',
         src: 'img/logo-light-theme.webp',
