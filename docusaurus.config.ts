@@ -49,7 +49,8 @@ const config: Config = {
       title: 'Choro',
       logo: {
         alt: 'Choro Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo-light-theme.webp',
+        srcDark: 'img/logo-dark-theme.webp',
       },
       items: [
         {
@@ -59,7 +60,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://www.choro.app',
+          href: 'https://choro.app/',
           label: 'App Website',
           position: 'left',
         },
@@ -95,7 +96,7 @@ const config: Config = {
           items: [
             {
               label: 'Main Website',
-              href: 'https://www.choro.app',
+              href: 'https://choro.app/',
             },
             {
               label: 'Contact Support',

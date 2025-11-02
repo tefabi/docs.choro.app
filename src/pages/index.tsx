@@ -121,7 +121,7 @@ export default function Home(): JSX.Element {
                     </Link>
                     <Link 
                       className="button button--outline button--primary margin--sm"
-                      href="https://www.choro.app">
+                      href="https://choro.app/">
                       🌐 Visit Website
                     </Link>
                     <Link 

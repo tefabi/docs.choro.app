@@ -292,7 +292,7 @@ In order to resolve a complaint regarding the Services or to receive further inf
 
 **Choro**  
 **Email:** [info@choro.app](mailto:info@choro.app)  
-**Website:** [www.choro.app](https://www.choro.app)
+**Website:** [https://choro.app/](https://choro.app/)
 
 ---
 
