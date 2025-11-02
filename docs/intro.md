@@ -13,8 +13,8 @@ Choro is a modern communication application designed to connect people through m
 ## Available Documentation
 
 ### 📋 Legal Documents
-- [Privacy Policy](/privacy) - How we handle your data
-- [Terms of Service](/terms) - Rules and guidelines for using Choro
+- [Privacy Policy](/docs/legal/privacy-policy) - How we handle your data
+- [Terms of Service](/docs/legal/terms-of-service) - Rules and guidelines for using Choro
 
 ### 🚀 Coming Soon
 - **Getting Started** - Installation guides and quick start tutorials
@@ -27,11 +27,11 @@ If you need assistance:
 
 - 📧 Email: [info@choro.app](mailto:info@choro.app)
 - 🌐 Website: [https://choro.app/](https://choro.app/)
-- 📱 Privacy Policy: [docs.choro.app/privacy](https://docs.choro.app/privacy)
-- ⚖️ Terms of Service: [docs.choro.app/terms](https://docs.choro.app/terms)
+- 📱 Privacy Policy: [docs.choro.app/docs/legal/privacy-policy](https://docs.choro.app/docs/legal/privacy-policy)
+- ⚖️ Terms of Service: [docs.choro.app/docs/legal/terms-of-service](https://docs.choro.app/docs/legal/terms-of-service)
 
 ## Legal
-By using Choro, you agree to our [Terms of Service](/terms) and [Privacy Policy](/privacy).
+By using Choro, you agree to our [Terms of Service](/docs/legal/terms-of-service) and [Privacy Policy](/docs/legal/privacy-policy).
 
 ## Contributing
 
