@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Get Started 🚀
+            Get Started
           </Link>
           <Link
             className="button button--primary button--lg margin-left--md"
@@ -43,7 +43,7 @@ function HomepageFeatures() {
           <div className="col col--4">
             <div className="homepage-feature">
               <div className="text--center">
-                <h3>📋 Legal & Privacy</h3>
+                <h3>Legal & Privacy</h3>
                 <p>
                   Comprehensive privacy policy and legal documentation to keep you informed
                   about how we handle your data and protect your privacy.
@@ -64,7 +64,7 @@ function HomepageFeatures() {
           <div className="col col--4">
             <div className="homepage-feature">
               <div className="text--center">
-                <h3>🚀 Getting Started</h3>
+                <h3>Getting Started</h3>
                 <p>
                   Quick setup guides, installation instructions, and everything you need 
                   to get up and running with Choro in minutes.
@@ -78,7 +78,7 @@ function HomepageFeatures() {
           <div className="col col--4">
             <div className="homepage-feature">
               <div className="text--center">
-                <h3>📖 User Guide</h3>
+                <h3>User Guide</h3>
                 <p>
                   Detailed documentation covering all features, best practices, 
                   and advanced usage patterns for power users.

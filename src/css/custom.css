@@ -1,19 +1,28 @@
 /**
  * Custom CSS for Choro Documentation
- * Royal Blue Theme with Better Contrast
+ * Custom Blue Theme with OKLCH Color Space
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Royal Blue Primary Colors */
-  --ifm-color-primary: #4169e1;
-  --ifm-color-primary-dark: #2c5ce6;
-  --ifm-color-primary-darker: #1e4fd1;
-  --ifm-color-primary-darkest: #1a42b8;
-  --ifm-color-primary-light: #5a79e6;
-  --ifm-color-primary-lighter: #6b86eb;
-  --ifm-color-primary-lightest: #8fa3f0;
+  /* Primary Colors - Using OKLCH for better color accuracy */
+  --ifm-color-primary: oklch(0.3488 0.0516 202.8203);
+  --ifm-color-primary-dark: oklch(0.32 0.055 202.8203);
+  --ifm-color-primary-darker: oklch(0.30 0.06 202.8203);
+  --ifm-color-primary-darkest: oklch(0.27 0.065 202.8203);
+  --ifm-color-primary-light: oklch(0.38 0.048 202.8203);
+  --ifm-color-primary-lighter: oklch(0.42 0.045 202.8203);
+  --ifm-color-primary-lightest: oklch(0.48 0.04 202.8203);
+
+  /* Fallback colors for browsers that don't support OKLCH */
+  --ifm-color-primary-fallback: #374b63;
+  --ifm-color-primary-dark-fallback: #2f4154;
+  --ifm-color-primary-darker-fallback: #293a4a;
+  --ifm-color-primary-darkest-fallback: #1f2d3d;
+  --ifm-color-primary-light-fallback: #425772;
+  --ifm-color-primary-lighter-fallback: #4d6381;
+  --ifm-color-primary-lightest-fallback: #5e7694;
 
   /* Text Colors - Better Contrast */
   --ifm-color-content: #333333;
@@ -31,12 +40,12 @@
 
   /* Navbar */
   --ifm-navbar-background-color: var(--ifm-background-color);
-  --ifm-navbar-shadow: 0 2px 4px rgba(65, 105, 225, 0.1);
+  --ifm-navbar-shadow: 0 2px 4px rgba(55, 75, 99, 0.1);
   --ifm-navbar-height: 60px;
 
   /* Sidebar */
   --ifm-sidebar-background-color: var(--ifm-background-color);
-  --ifm-sidebar-border-color: rgba(65, 105, 225, 0.1);
+  --ifm-sidebar-border-color: rgba(55, 75, 99, 0.1);
 
   /* Cards and Containers */
   --ifm-card-border-radius: 8px;
@@ -44,18 +53,27 @@
 
   /* Code blocks */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(65, 105, 225, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(55, 75, 99, 0.1);
 }
 
 /* Dark mode overrides */
 [data-theme='dark'] {
-  --ifm-color-primary: #6b86eb;
-  --ifm-color-primary-dark: #5a79e6;
-  --ifm-color-primary-darker: #4169e1;
-  --ifm-color-primary-darkest: #2c5ce6;
-  --ifm-color-primary-light: #7c94f0;
-  --ifm-color-primary-lighter: #8fa3f0;
-  --ifm-color-primary-lightest: #a3b2f5;
+  --ifm-color-primary: oklch(0.55 0.065 202.8203);
+  --ifm-color-primary-dark: oklch(0.50 0.07 202.8203);
+  --ifm-color-primary-darker: oklch(0.45 0.075 202.8203);
+  --ifm-color-primary-darkest: oklch(0.40 0.08 202.8203);
+  --ifm-color-primary-light: oklch(0.60 0.06 202.8203);
+  --ifm-color-primary-lighter: oklch(0.65 0.055 202.8203);
+  --ifm-color-primary-lightest: oklch(0.70 0.05 202.8203);
+
+  /* Fallback colors for dark mode */
+  --ifm-color-primary-fallback: #6b8199;
+  --ifm-color-primary-dark-fallback: #5e7694;
+  --ifm-color-primary-darker-fallback: #516b8f;
+  --ifm-color-primary-darkest-fallback: #44608a;
+  --ifm-color-primary-light-fallback: #788c9e;
+  --ifm-color-primary-lighter-fallback: #8597a3;
+  --ifm-color-primary-lightest-fallback: #92a2a8;
 
   --ifm-background-color: #1b1b1d;
   --ifm-background-surface-color: #2a2a2e;
@@ -69,10 +87,33 @@
   --ifm-sidebar-background-color: var(--ifm-background-surface-color);
 }
 
+/* Browser support: Use fallback for browsers without OKLCH support */
+@supports not (color: oklch(0% 0 0)) {
+  :root {
+    --ifm-color-primary: var(--ifm-color-primary-fallback);
+    --ifm-color-primary-dark: var(--ifm-color-primary-dark-fallback);
+    --ifm-color-primary-darker: var(--ifm-color-primary-darker-fallback);
+    --ifm-color-primary-darkest: var(--ifm-color-primary-darkest-fallback);
+    --ifm-color-primary-light: var(--ifm-color-primary-light-fallback);
+    --ifm-color-primary-lighter: var(--ifm-color-primary-lighter-fallback);
+    --ifm-color-primary-lightest: var(--ifm-color-primary-lightest-fallback);
+  }
+
+  [data-theme='dark'] {
+    --ifm-color-primary: var(--ifm-color-primary-fallback);
+    --ifm-color-primary-dark: var(--ifm-color-primary-dark-fallback);
+    --ifm-color-primary-darker: var(--ifm-color-primary-darker-fallback);
+    --ifm-color-primary-darkest: var(--ifm-color-primary-darkest-fallback);
+    --ifm-color-primary-light: var(--ifm-color-primary-light-fallback);
+    --ifm-color-primary-lighter: var(--ifm-color-primary-lighter-fallback);
+    --ifm-color-primary-lightest: var(--ifm-color-primary-lightest-fallback);
+  }
+}
+
 /* Custom Navbar Styling */
 .navbar {
   box-shadow: var(--ifm-navbar-shadow);
-  border-bottom: 1px solid rgba(65, 105, 225, 0.1);
+  border-bottom: 1px solid rgba(55, 75, 99, 0.1);
 }
 
 .navbar__title {
@@ -92,9 +133,9 @@
 /* Hero Section Styling */
 .hero {
   background: linear-gradient(135deg, 
-    rgba(65, 105, 225, 0.08) 0%, 
-    rgba(65, 105, 225, 0.04) 100%);
-  border-bottom: 1px solid rgba(65, 105, 225, 0.1);
+    rgba(55, 75, 99, 0.08) 0%, 
+    rgba(55, 75, 99, 0.04) 100%);
+  border-bottom: 1px solid rgba(55, 75, 99, 0.1);
 }
 
 .hero__title {
@@ -129,7 +170,7 @@
 .button--primary:hover {
   background: linear-gradient(135deg, var(--ifm-color-primary-dark), var(--ifm-color-primary-darkest));
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(65, 105, 225, 0.3);
+  box-shadow: 0 4px 12px rgba(55, 75, 99, 0.3);
   color: white !important;
 }
 
@@ -143,7 +184,7 @@
   background: var(--ifm-color-primary);
   color: white !important;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(65, 105, 225, 0.2);
+  box-shadow: 0 4px 12px rgba(55, 75, 99, 0.2);
 }
 
 .button--outline {
@@ -164,14 +205,14 @@
   border-radius: 8px;
   transition: all 0.2s ease;
   background: var(--ifm-background-color);
-  border: 1px solid rgba(65, 105, 225, 0.1);
+  border: 1px solid rgba(55, 75, 99, 0.1);
 }
 
 .homepage-feature:hover {
-  background: rgba(65, 105, 225, 0.03);
+  background: rgba(55, 75, 99, 0.03);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(65, 105, 225, 0.15);
-  border-color: rgba(65, 105, 225, 0.2);
+  box-shadow: 0 8px 25px rgba(55, 75, 99, 0.15);
+  border-color: rgba(55, 75, 99, 0.2);
 }
 
 .homepage-feature h3 {
@@ -220,26 +261,26 @@
 }
 
 .menu__link:hover {
-  background: rgba(65, 105, 225, 0.1);
+  background: rgba(55, 75, 99, 0.1);
   color: var(--ifm-color-primary) !important;
 }
 
 .menu__link--active {
-  background: rgba(65, 105, 225, 0.15);
+  background: rgba(55, 75, 99, 0.15);
   color: var(--ifm-color-primary) !important;
   font-weight: 600;
 }
 
 /* Cards */
 .card {
-  border: 1px solid rgba(65, 105, 225, 0.1);
+  border: 1px solid rgba(55, 75, 99, 0.1);
   border-radius: var(--ifm-card-border-radius);
   transition: all 0.2s ease;
 }
 
 .card:hover {
-  border-color: rgba(65, 105, 225, 0.3);
-  box-shadow: 0 4px 12px rgba(65, 105, 225, 0.1);
+  border-color: rgba(55, 75, 99, 0.3);
+  box-shadow: 0 4px 12px rgba(55, 75, 99, 0.1);
   transform: translateY(-2px);
 }
 
@@ -277,7 +318,7 @@
 }
 
 .table-of-contents__link:hover {
-  background: rgba(65, 105, 225, 0.1);
+  background: rgba(55, 75, 99, 0.1);
   color: var(--ifm-color-primary);
 }
 
@@ -300,11 +341,11 @@
 /* Dark mode specific fixes */
 [data-theme='dark'] .homepage-feature {
   background: var(--ifm-background-surface-color);
-  border-color: rgba(65, 105, 225, 0.2);
+  border-color: rgba(55, 75, 99, 0.2);
 }
 
 [data-theme='dark'] .homepage-feature:hover {
-  background: rgba(65, 105, 225, 0.1);
+  background: rgba(55, 75, 99, 0.1);
 }
 
 [data-theme='dark'] .homepage-feature h3 {
@@ -316,14 +357,14 @@
 }
 
 /* Custom utility classes */
-.text-royal-blue {
+.text-custom-blue {
   color: var(--ifm-color-primary) !important;
 }
 
-.bg-royal-blue {
+.bg-custom-blue {
   background-color: var(--ifm-color-primary);
 }
 
-.border-royal-blue {
+.border-custom-blue {
   border-color: var(--ifm-color-primary);
 }

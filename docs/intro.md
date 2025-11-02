@@ -18,8 +18,7 @@ Choro is a modern communication application designed to connect people through m
 
 ### 🚀 Coming Soon
 - **Getting Started** - Installation guides and quick start tutorials
-- **User Guide** - Complete feature documentation  
-- **API Documentation** - For developers integrating with Choro
+- **User Guide** - Complete feature documentation
 
 ## Getting Help
 
