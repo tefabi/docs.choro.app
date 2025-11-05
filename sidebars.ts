@@ -12,6 +12,14 @@ const sidebars: SidebarsConfig = {
         'legal/terms-of-service',
       ],
     },
+    {
+      type: 'category',
+      label: 'User Guide',
+      collapsed: false,
+      items: [
+        'user-guide/account',
+      ],
+    },
     // Add more sections as you create content:
     // {
     //   type: 'category', 

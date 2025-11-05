@@ -40,17 +40,7 @@ You can also log in using Google or Meta (Facebook) authentication.
 
 ---
 
-### Step 2: Navigate to Gallery (Home)
-
-After logging in, you'll see your gallery/home page with all your content.
-
-![Home Page - Gallery](./images/home-page.png)
-
-From here, you need to access your account settings to proceed with deletion.
-
----
-
-### Step 3: Access Profile Settings
+### Step 2: Access Profile Settings
 
 Navigate to your profile settings to manage your account.
 
@@ -68,7 +58,7 @@ In the Profile settings page, you'll see:
 
 ---
 
-### Step 4: Initiate Account Deletion
+### Step 3: Initiate Account Deletion
 
 Scroll down to the "Delete account" section at the bottom of the Profile settings page.
 
@@ -84,7 +74,7 @@ Once you proceed past this step and confirm your password, your account deletion
 
 ---
 
-### Step 5: Confirm Account Deletion
+### Step 4: Confirm Account Deletion
 
 A confirmation dialog will appear asking you to verify your decision one final time.
 

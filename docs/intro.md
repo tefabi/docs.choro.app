@@ -17,7 +17,7 @@ Choro is a modern communication application designed to connect people through m
 - [Terms of Service](/docs/legal/terms-of-service) - Rules and guidelines for using Choro
 
 ### 📚 User Guide
-- [Account Deletion](/docs/user-guide/account-deletion) - How to permanently delete your account and data
+- [Account Deletion](/docs/user-guide/account) - How to permanently delete your account and data
 
 ### 🚀 Coming Soon
 - **Getting Started** - Installation guides and quick start tutorials

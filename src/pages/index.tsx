@@ -64,28 +64,16 @@ function HomepageFeatures() {
           <div className="col col--4">
             <div className="homepage-feature">
               <div className="text--center">
-                <h3>Getting Started</h3>
-                <p>
-                  Quick setup guides, installation instructions, and everything you need 
-                  to get up and running with Choro in minutes.
-                </p>
-                <div className="button button--outline button--secondary">
-                  Coming Soon
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col col--4">
-            <div className="homepage-feature">
-              <div className="text--center">
                 <h3>User Guide</h3>
                 <p>
                   Detailed documentation covering all features, best practices, 
                   and advanced usage patterns for power users.
                 </p>
-                <div className="button button--outline button--secondary">
-                  Coming Soon
-                </div>
+                <Link
+                  className="button button--outline button--secondary"
+                  to="/docs/user-guide/account">
+                  Account Settings
+                </Link>
               </div>
             </div>
           </div>
