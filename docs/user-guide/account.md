@@ -149,7 +149,7 @@ Yes. Since we don't retain any information about deleted accounts, you can immed
 
 ### Is any data retained after deletion?
 
-**No.** We completely delete all user data immediately upon account deletion. No information is retained in backups, archives, or any other system. Your data is permanently gone.
+**Yes.** For legal compliance, we retain basic billing information such as your billing address and transaction records. We do not retain any bank account details or payment card information. All other user data is permanently deleted immediately.
 
 ## Need Help?
 
