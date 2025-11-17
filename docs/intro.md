@@ -42,7 +42,7 @@ Explore designs created with Choro:
 }}>
   <div style={{gridRow: 'span 2'}}>
     <img 
-      src="/docs/images/sample_5.png" 
+      src="../images/sample_5.jpg" 
       alt="Design Example 1" 
       style={{
         width: '100%',
@@ -56,7 +56,7 @@ Explore designs created with Choro:
   
   <div>
     <img 
-      src="/docs/images/sample_6.png" 
+      src="../images/sample_6.png" 
       alt="Design Example 2" 
       style={{
         width: '100%',
@@ -70,7 +70,7 @@ Explore designs created with Choro:
   
   <div>
     <img 
-      src="/docs/images/sample_7.png" 
+      src="../images/sample_7.png" 
       alt="Design Example 3" 
       style={{
         width: '100%',
@@ -84,7 +84,7 @@ Explore designs created with Choro:
   
   <div>
     <img 
-      src="/docs/images/sample_8.png" 
+      src="../images/sample_8.png" 
       alt="Design Example 4" 
       style={{
         width: '100%',
@@ -98,7 +98,7 @@ Explore designs created with Choro:
   
   <div style={{gridRow: 'span 2'}}>
     <img 
-      src="/docs/images/sample_4.png" 
+      src="../images/sample_4.png" 
       alt="Design Example 5" 
       style={{
         width: '100%',
@@ -112,7 +112,7 @@ Explore designs created with Choro:
   
   <div>
     <img 
-      src="/docs/images/sample_3.png" 
+      src="../images/sample_3.png" 
       alt="Design Example 6" 
       style={{
         width: '100%',

@@ -58,7 +58,7 @@ function HomepageFeatures() {
                 }}>
                   <Link 
                     className="button button--outline button--primary"
-                    to="/docs/getting-started/getting-started">
+                    to="/docs/getting-started">
                     Quick Start Guide
                   </Link>
                 </div>
@@ -83,7 +83,7 @@ function HomepageFeatures() {
                 }}>
                   <Link 
                     className="button button--outline button--primary"
-                    to="/docs/Payment/payment">
+                    to="/docs/payment">
                     View Plans
                   </Link>
                 </div>

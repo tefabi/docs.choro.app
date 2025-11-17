@@ -12,7 +12,7 @@ Welcome! Get up and running with Choro in minutes.
 
 Start by logging into Choro with your preferred method.
 
-![Login Page](/docs/images/login.png)
+![Login Page](../images/login.png)
 
 ### Sign In Options:
 - **Google** - Use your Google account
@@ -27,7 +27,7 @@ Start by logging into Choro with your preferred method.
 
 Click **New Chat** to start creating your design.
 
-![Prompting](/docs/images/prompting.png)
+![Prompting](../images/prompting.png)
 
 ### Describe Your Design
 
@@ -52,7 +52,7 @@ Click the **↑ arrow** or press Enter to generate.
 
 Choro's AI is creating your design. This typically takes just a few seconds.
 
-![Loading](/docs/images/loading.png)
+![Loading](../images/loading.png)
 
 **Average generation time:** 10-20 seconds
 
@@ -62,7 +62,7 @@ Choro's AI is creating your design. This typically takes just a few seconds.
 
 Your designs are ready! Choro generates multiple variations for you to choose from.
 
-![Sample Output](/docs/images/sample-output.png)
+![Sample Output](../images/sample-output.png)
 
 ### What You Can Do:
 
@@ -99,5 +99,6 @@ All generated designs are automatically saved to your conversation history. Acce
 
 Now that you've created your first design:
 
-1. **Check Plans** - See [Payment Plans](/docs/Payment/payment) for your usage limits
-2. **Learn More** - Visit [About Choro](/docs/About/about) to learn about the platform
+1. **Explore the Gallery** - Get inspiration from example designs
+2. **Check Plans** - See [Payment Plans](/docs/payment) for your usage limits
+3. **Learn More** - Visit [About Choro](/docs/about) to learn about the platform

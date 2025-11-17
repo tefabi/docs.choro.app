@@ -2,51 +2,46 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    'intro', // What is Choro
-    
+    'intro',
     {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
       items: [
-        'getting-started/overview',
-        'getting-started/account-signup',
-        'getting-started/image-generation',
-      ],
-    },  
-    {
-      type: 'category',
-      label: 'Plans and Pricing',
-      collapsed: false,
-      items: [
-        'plans/available-plans',
+        'getting-started/getting-started',
       ],
     },
     {
       type: 'category',
-      label: 'User Guide',
+      label: 'Payment Plans',
       collapsed: false,
       items: [
-        'user-guide/account',
+        'payment/payment',
       ],
     },
     {
       type: 'category',
-      label: 'Legal and Support',
+      label: 'Legal',
       collapsed: false,
       items: [
         'legal/privacy-policy',
         'legal/terms-of-service',
       ],
     },
-    
     {
       type: 'category',
-      label: 'About Choro',
+      label: 'About',
       collapsed: false,
       items: [
-        'about/company',
-        'about/website',
+        'about/about',
+      ],
+    },
+     {
+      type: 'category',
+      label: 'User Guide',
+      collapsed: false,
+      items: [
+        'user-guide/account',
       ],
     },
   ],
