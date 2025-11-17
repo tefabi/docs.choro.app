@@ -27,7 +27,7 @@ When you delete your Choro account, the following happens **immediately**:
 
 First, you need to be logged into your Choro account.
 
-![Login Page](/docs/images/login.png)
+![Login Page](./images/login.png)
 
 1. Go to the Choro login page
 2. Enter your email address
@@ -44,7 +44,7 @@ You can also log in using Google or Meta (Facebook) authentication.
 
 Navigate to your profile settings to manage your account.
 
-![Profile Settings](/docs/images/John%20Doe.png)
+![Profile Settings](./images/John%20Doe.png)
 
 1. Click on your profile name or avatar in the sidebar (bottom left)
 2. Select **Settings** from the menu
@@ -62,7 +62,7 @@ In the Profile settings page, you'll see:
 
 Scroll down to the "Delete account" section at the bottom of the Profile settings page.
 
-![Delete Account Section](/docs/images/delete.png)
+![Delete Account Section](./images/delete.png)
 
 1. Locate the **Delete account** section with the red warning box
 2. Read the warning: "Please proceed with caution, this cannot be undone"
@@ -78,7 +78,7 @@ Once you proceed past this step and confirm your password, your account deletion
 
 A confirmation dialog will appear asking you to verify your decision one final time.
 
-![Final Deletion Confirmation](./docs/images/final-delete.png)
+![Final Deletion Confirmation](./images/final-delete.png)
 
 To complete the deletion:
 

@@ -16,7 +16,7 @@ function HomepageHeader() {
           Choro Documentation
         </Heading>
         <p className="hero__subtitle">
-          Complete documentation for the modern communication platform
+          Complete documentation for the modern design platform
         </p>
         <div className={styles.buttons}>
           <Link
@@ -25,9 +25,10 @@ function HomepageHeader() {
             Get Started
           </Link>
           <Link
-            className="button button--primary button--lg margin-left--md"
-            to="/docs/legal/privacy-policy">
-            View Privacy Policy
+            className="button button--outline button--secondary button--lg"
+            to="https://choro.app"
+            style={{marginLeft: '0.5rem', marginTop: '0.5rem'}}>
+            Visit Choro.app
           </Link>
         </div>
       </div>
@@ -40,40 +41,82 @@ function HomepageFeatures() {
     <section className="padding-vert--xl">
       <div className="container">
         <div className="row">
-          <div className="col col--4">
-            <div className="homepage-feature">
-              <div className="text--center">
-                <h3>Legal & Privacy</h3>
+          {/* Getting Started Card */}
+          <div className="col col--12 col--md-6 col--lg-4 margin-bottom--lg">
+            <div className="homepage-feature" style={{height: '100%'}}>
+              <div className="text--center padding--md">
+                <h3>Getting Started</h3>
                 <p>
-                  Comprehensive privacy policy and legal documentation to keep you informed
-                  about how we handle your data and protect your privacy.
+                  Learn how to create stunning designs with Choro in minutes. 
+                  Step-by-step guide from login to your first design.
                 </p>
-                <Link 
-                  className="button button--outline button--primary"
-                  to="/docs/legal/privacy-policy">
-                  Privacy Policy
-                </Link>
-                <Link 
-                  className="button button--outline button--primary margin--sm"
-                  to="/docs/legal/terms-of-service">
-                  Terms of Service
-                </Link>
+                <div style={{
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  gap: '0.5rem',
+                  marginTop: '1rem'
+                }}>
+                  <Link 
+                    className="button button--outline button--primary"
+                    to="/docs/getting-started/getting-started">
+                    Quick Start Guide
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col col--4">
-            <div className="homepage-feature">
-              <div className="text--center">
-                <h3>User Guide</h3>
+
+          {/* Payment Plans Card */}
+          <div className="col col--12 col--md-6 col--lg-4 margin-bottom--lg">
+            <div className="homepage-feature" style={{height: '100%'}}>
+              <div className="text--center padding--md">
+                <h3>Payment Plans</h3>
                 <p>
-                  Detailed documentation covering all features, best practices, 
-                  and advanced usage patterns for power users.
+                  Explore our flexible pricing options. From Basic to Expert plans, 
+                  find the perfect fit for your design needs.
                 </p>
-                <Link
-                  className="button button--outline button--secondary"
-                  to="/docs/user-guide/account">
-                  Account Settings
-                </Link>
+                <div style={{
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  gap: '0.5rem',
+                  marginTop: '1rem'
+                }}>
+                  <Link 
+                    className="button button--outline button--primary"
+                    to="/docs/Payment/payment">
+                    View Plans
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Legal & Privacy Card */}
+          <div className="col col--12 col--md-6 col--lg-4 margin-bottom--lg">
+            <div className="homepage-feature" style={{height: '100%'}}>
+              <div className="text--center padding--md">
+                <h3>Legal & Privacy</h3>
+                <p>
+                  Comprehensive privacy policy and legal documentation. 
+                  Learn how we protect your data and respect your rights.
+                </p>
+                <div style={{
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  gap: '0.5rem',
+                  marginTop: '1rem'
+                }}>
+                  <Link 
+                    className="button button--outline button--primary"
+                    to="/docs/legal/privacy-policy">
+                    Privacy Policy
+                  </Link>
+                  <Link 
+                    className="button button--outline button--primary"
+                    to="/docs/legal/terms-of-service">
+                    Terms of Service
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -88,35 +131,44 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title="Home"
-      description="Complete documentation for Choro - the modern communication platform for messaging, groups, and real-time collaboration">
+      description="Complete documentation for Choro - the modern AI-powered design platform for instant professional visuals">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
         <section className="padding-vert--lg" style={{backgroundColor: 'var(--ifm-background-surface-color)'}}>
           <div className="container">
             <div className="row">
-              <div className="col col--8 col--offset-2">
-                <div className="text--center">
+              <div className="col col--12 col--lg-8" style={{margin: '0 auto'}}>
+                <div className="text--center padding--md">
                   <h2>Need Help?</h2>
                   <p className="margin-bottom--lg">
-                    Our team is here to help you get the most out of Choro. 
+                    Our team is here to help you create amazing designs. 
                     Reach out through any of these channels.
                   </p>
-                  <div className="button-group">
+                  <div style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    gap: '0.5rem',
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                  }}>
                     <Link 
-                      className="button button--primary margin--sm"
-                      href="mailto:info@choro.app">
+                      className="button button--primary"
+                      href="https://wa.me/254742233797"
+                      style={{flex: '1 1 auto', minWidth: '200px', maxWidth: '300px'}}>
+                      💬 WhatsApp
+                    </Link>
+                    <Link 
+                      className="button button--outline button--primary"
+                      href="mailto:info@choro.app"
+                      style={{flex: '1 1 auto', minWidth: '200px', maxWidth: '300px'}}>
                       📧 Email Support
                     </Link>
                     <Link 
-                      className="button button--outline button--primary margin--sm"
-                      href="https://choro.app/">
+                      className="button button--outline button--primary"
+                      href="https://choro.app"
+                      style={{flex: '1 1 auto', minWidth: '200px', maxWidth: '300px'}}>
                       🌐 Visit Website
-                    </Link>
-                    <Link 
-                      className="button button--outline button--primary margin--sm"
-                      href="https://github.com/tefabi/docs.choro.app/issues">
-                      🐛 Report Issue
                     </Link>
                   </div>
                 </div>

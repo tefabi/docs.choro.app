@@ -1,0 +1,94 @@
+---
+sidebar_position: 1
+---
+
+# What is Choro?
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="static/img/logo-light-theme.webp" alt="Choro Logo" style={{maxWidth: '200px', margin: '0 auto'}} />
+</div>
+
+## A Modern Design Platform
+
+Choro simplifies the concept of designing, putting all your ideas into one simple platform. Create professional designs in seconds.
+
+**Your business. Your design. Your way.**
+
+---
+
+## Overview
+
+Choro is a concept aimed at solving day-to-day design issues. It solves daily life tasks and simplifies the whole idea of marketing and branding with one click—bringing design skills to you at your own convenience.
+
+### Key Features
+
+- 🎨 **AI-Powered Design Generation** - Create stunning visuals in seconds
+- 🚀 **One-Click Simplicity** - Professional results without design experience
+- 💼 **Business-Ready** - Perfect for marketing, branding, and social media
+- ⚡ **Instant Results** - Generate images and designs on demand
+
+---
+
+## Gallery
+
+Explore designs created with Choro:
+
+<div className="row" style={{marginTop: '2rem'}}>
+  <div className="col col--4">
+    <img src="/static/img/example-design-1.png" alt="Example Design" style={{borderRadius: '8px', width: '100%'}} />
+  </div>
+  <div className="col col--4">
+    <img src="/static/img/example-design-2.png" alt="Example Design" style={{borderRadius: '8px', width: '100%'}} />
+  </div>
+  <div className="col col--4">
+    <img src="/static/img/example-design-3.png" alt="Example Design" style={{borderRadius: '8px', width: '100%'}} />
+  </div>
+</div>
+
+---
+
+## Getting Started
+
+Ready to transform your design workflow?
+
+1. **Sign Up** - Create your account in minutes
+2. **Choose a Plan** - Select the plan that fits your needs
+3. **Start Creating** - Generate professional designs instantly
+
+<div style={{marginTop: '1.5rem'}}>
+  <a href="https://choro.app" className="button button--primary button--lg" target="_blank">
+    Get Started with Choro
+  </a>
+</div>
+
+---
+
+## Connect With Us
+
+<div style={{marginTop: '1.5rem'}}>
+  <a href="https://instagram.com/choro" target="_blank" style={{marginRight: '1rem'}}>
+    📷 Instagram
+  </a>
+  <a href="https://facebook.com/choro" target="_blank" style={{marginRight: '1rem'}}>
+    👥 Facebook
+  </a>
+  <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+    💬 WhatsApp
+  </a>
+</div>
+
+---
+
+## Need Help?
+
+Have questions or need assistance? We're here to help!
+
+<div style={{marginTop: '1.5rem'}}>
+  <a href="https://wa.me/yourwhatsappnumber" className="button button--secondary button--lg" target="_blank">
+    💬 Chat on WhatsApp
+  </a>
+</div>
+
+**Other ways to reach us:**
+- 📧 Email: [info@choro.app](mailto:info@choro.app)
+- 🌐 Website: [choro.app](https://choro.app)
