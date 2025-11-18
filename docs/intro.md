@@ -38,7 +38,7 @@ Ready to transform your design workflow?
 3. **Start Creating** - Generate professional designs instantly
 
 <div style={{marginTop: '1.5rem'}}>
-  <a href="https://choro.app" className="button button--primary button--lg" target="_blank" rel="noopener noreferrer">
+  <a href="https://choro.app" className="button button--outline button--primary" target="_blank" rel="noopener noreferrer">
     Get Started with Choro
   </a>
 </div>

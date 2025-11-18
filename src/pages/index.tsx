@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Get Started
+            Get Started 🚀
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
@@ -41,8 +41,7 @@ function HomepageGallery() {
     <section className="padding-vert--xl" style={{backgroundColor: 'var(--ifm-background-color)'}}>
       <div className="container">
         <div className="text--center margin-bottom--lg">
-          <Heading as="h2">Gallery</Heading>
-          <p>Explore stunning designs created with Choro</p>
+          <Heading as="h2">Explore stunning designs created with Choro</Heading>
         </div>
         <div style={{
           display: 'grid',
@@ -156,20 +155,20 @@ function HomepageGallery() {
 
 function HomepageFeatures() {
   return (
-    <section className="padding-vert--xl" style={{backgroundColor: 'var(--ifm-background-surface-color)'}}>
+    <section className="padding-vert--lg" style={{backgroundColor: 'var(--ifm-background-surface-color)'}}>
       <div className="container">
         <div className="row">
-          {/* Getting Started Card */}
-          <div className="col col--12 col--md-4 margin-bottom--lg">
-            <div className="homepage-feature" style={{height: '100%', padding: '1.5rem'}}>
+          {/* Row 1: Getting Started & Payment Plans side-by-side */}
+          <div className="col col--6 margin-bottom--md">
+            <div className="homepage-feature" style={{height: '100%', padding: '2rem', borderRadius: '8px'}}>
               <div className="text--center">
                 <h3>Getting Started</h3>
-                <p style={{fontSize: '0.95rem'}}>
+                <p>
                   Learn how to create stunning designs with Choro in minutes. 
                   Step-by-step guide from login to your first design.
                 </p>
                 <Link 
-                  className="button button--outline button--primary button--sm"
+                  className="button button--outline button--primary"
                   to="/docs/getting-started">
                   Quick Start Guide
                 </Link>
@@ -177,17 +176,16 @@ function HomepageFeatures() {
             </div>
           </div>
 
-          {/* Payment Plans Card */}
-          <div className="col col--12 col--md-4 margin-bottom--lg">
-            <div className="homepage-feature" style={{height: '100%', padding: '1.5rem'}}>
+          <div className="col col--6 margin-bottom--md">
+            <div className="homepage-feature" style={{height: '100%', padding: '2rem', borderRadius: '8px'}}>
               <div className="text--center">
                 <h3>Payment Plans</h3>
-                <p style={{fontSize: '0.95rem'}}>
+                <p>
                   Explore our flexible pricing options. From Basic to Expert plans, 
                   find the perfect fit for your design needs.
                 </p>
                 <Link 
-                  className="button button--outline button--primary button--sm"
+                  className="button button--outline button--primary"
                   to="/docs/payment">
                   View Plans
                 </Link>
@@ -195,23 +193,29 @@ function HomepageFeatures() {
             </div>
           </div>
 
-          {/* Legal & Privacy Card */}
-          <div className="col col--12 col--md-4 margin-bottom--lg">
-            <div className="homepage-feature" style={{height: '100%', padding: '1.5rem'}}>
+          {/* Row 2: Legal & Privacy - full width */}
+          <div className="col col--12">
+            <div className="homepage-feature" style={{padding: '2rem', borderRadius: '8px'}}>
               <div className="text--center">
                 <h3>Legal & Privacy</h3>
-                <p style={{fontSize: '0.95rem'}}>
+                <p>
                   Comprehensive privacy policy and legal documentation. 
                   Learn how we protect your data and respect your rights.
                 </p>
-                <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '0.75rem'}}>
+                <div style={{
+                  display: 'flex', 
+                  gap: '1rem', 
+                  justifyContent: 'center',
+                  marginTop: '1rem',
+                  flexWrap: 'wrap'
+                }}>
                   <Link 
-                    className="button button--outline button--primary button--sm"
+                    className="button button--outline button--primary"
                     to="/docs/legal/privacy-policy">
                     Privacy Policy
                   </Link>
                   <Link 
-                    className="button button--outline button--primary button--sm"
+                    className="button button--outline button--primary"
                     to="/docs/legal/terms-of-service">
                     Terms of Service
                   </Link>
@@ -235,40 +239,34 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageGallery />
         <HomepageFeatures />
-        <section className="padding-vert--lg" style={{backgroundColor: 'var(--ifm-background-color)'}}>
+        <section className="padding-vert--md" style={{backgroundColor: 'var(--ifm-background-color)'}}>
           <div className="container">
-            <div className="row">
-              <div className="col col--12" style={{margin: '0 auto'}}>
-                <div className="text--center padding--md">
-                  <h2>Need Help?</h2>
-                  <p className="margin-bottom--lg">
-                    Our team is here to help you create amazing designs. 
-                    Reach out through any of these channels.
-                  </p>
-                  <div style={{
-                    display: 'flex',
-                    flexWrap: 'wrap',
-                    gap: '0.75rem',
-                    justifyContent: 'center',
-                    alignItems: 'center'
-                  }}>
-                    <Link 
-                      className="button button--primary"
-                      href="https://wa.me/254742233797">
-                      💬 WhatsApp
-                    </Link>
-                    <Link 
-                      className="button button--outline button--primary"
-                      href="mailto:info@choro.app">
-                      📧 Email
-                    </Link>
-                    <Link 
-                      className="button button--outline button--primary"
-                      href="https://choro.app">
-                      🌐 Website
-                    </Link>
-                  </div>
-                </div>
+            <div className="text--center">
+              <h2>Need Help?</h2>
+              <p style={{marginBottom: '1.5rem'}}>
+                Our team is here to help you create amazing designs.
+              </p>
+              <div style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap'
+              }}>
+                <Link 
+                  className="button button--primary"
+                  href="https://wa.me/254742233797">
+                  💬 WhatsApp
+                </Link>
+                <Link 
+                  className="button button--outline button--primary"
+                  href="mailto:info@choro.app">
+                  📧 Email
+                </Link>
+                <Link 
+                  className="button button--outline button--primary"
+                  href="https://choro.app">
+                  🌐 Website
+                </Link>
               </div>
             </div>
           </div>
