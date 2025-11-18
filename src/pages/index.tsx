@@ -153,7 +153,7 @@ export default function Home(): JSX.Element {
                     alignItems: 'center'
                   }}>
                     <Link 
-                      className="button button--primary"
+                      className="button button--outline button--primary"
                       href="https://wa.me/254742233797"
                       style={{flex: '1 1 auto', minWidth: '200px', maxWidth: '300px'}}>
                       💬 WhatsApp
