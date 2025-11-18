@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Get Started 🚀
+            Get Started
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
@@ -40,14 +40,14 @@ function HomepageGallery() {
   return (
     <section className="padding-vert--xl" style={{backgroundColor: 'var(--ifm-background-color)'}}>
       <div className="container">
-        <div className="text--center margin-bottom--xl">
+        <div className="text--center margin-bottom--lg">
           <Heading as="h2">Gallery</Heading>
           <p>Explore stunning designs created with Choro</p>
         </div>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-          gap: '1.5rem',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+          gap: '1rem',
           marginTop: '2rem',
           marginBottom: '2rem'
         }}>
@@ -59,8 +59,8 @@ function HomepageGallery() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                borderRadius: '12px',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+                borderRadius: '8px',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
               }} 
             />
           </div>
@@ -73,8 +73,8 @@ function HomepageGallery() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                borderRadius: '12px',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+                borderRadius: '8px',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
               }} 
             />
           </div>
@@ -87,8 +87,8 @@ function HomepageGallery() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                borderRadius: '12px',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+                borderRadius: '8px',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
               }} 
             />
           </div>
@@ -101,8 +101,8 @@ function HomepageGallery() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                borderRadius: '12px',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+                borderRadius: '8px',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
               }} 
             />
           </div>
@@ -115,8 +115,8 @@ function HomepageGallery() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                borderRadius: '12px',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+                borderRadius: '8px',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
               }} 
             />
           </div>
@@ -129,8 +129,22 @@ function HomepageGallery() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                borderRadius: '12px',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+                borderRadius: '8px',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
+              }} 
+            />
+          </div>
+
+          <div>
+            <img 
+              src="/img/sample_9.png" 
+              alt="Design Example 7" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                borderRadius: '8px',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
               }} 
             />
           </div>
@@ -146,77 +160,58 @@ function HomepageFeatures() {
       <div className="container">
         <div className="row">
           {/* Getting Started Card */}
-          <div className="col col--12 col--md-6 col--lg-4 margin-bottom--lg">
-            <div className="homepage-feature" style={{height: '100%'}}>
-              <div className="text--center padding--md">
+          <div className="col col--12 col--md-4 margin-bottom--lg">
+            <div className="homepage-feature" style={{height: '100%', padding: '1.5rem'}}>
+              <div className="text--center">
                 <h3>Getting Started</h3>
-                <p>
+                <p style={{fontSize: '0.95rem'}}>
                   Learn how to create stunning designs with Choro in minutes. 
                   Step-by-step guide from login to your first design.
                 </p>
-                <div style={{
-                  display: 'flex', 
-                  flexDirection: 'column', 
-                  gap: '0.5rem',
-                  marginTop: '1rem'
-                }}>
-                  <Link 
-                    className="button button--outline button--primary"
-                    to="/docs/getting-started">
-                    Quick Start Guide
-                  </Link>
-                </div>
+                <Link 
+                  className="button button--outline button--primary button--sm"
+                  to="/docs/getting-started">
+                  Quick Start Guide
+                </Link>
               </div>
             </div>
           </div>
 
           {/* Payment Plans Card */}
-          <div className="col col--12 col--md-6 col--lg-4 margin-bottom--lg">
-            <div className="homepage-feature" style={{height: '100%'}}>
-              <div className="text--center padding--md">
+          <div className="col col--12 col--md-4 margin-bottom--lg">
+            <div className="homepage-feature" style={{height: '100%', padding: '1.5rem'}}>
+              <div className="text--center">
                 <h3>Payment Plans</h3>
-                <p>
+                <p style={{fontSize: '0.95rem'}}>
                   Explore our flexible pricing options. From Basic to Expert plans, 
                   find the perfect fit for your design needs.
                 </p>
-                <div style={{
-                  display: 'flex', 
-                  flexDirection: 'column', 
-                  gap: '0.5rem',
-                  marginTop: '1rem'
-                }}>
-                  <Link 
-                    className="button button--outline button--primary"
-                    to="/docs/payment">
-                    View Plans
-                  </Link>
-                </div>
+                <Link 
+                  className="button button--outline button--primary button--sm"
+                  to="/docs/payment">
+                  View Plans
+                </Link>
               </div>
             </div>
           </div>
 
           {/* Legal & Privacy Card */}
-          <div className="col col--12 col--md-6 col--lg-4 margin-bottom--lg">
-            <div className="homepage-feature" style={{height: '100%'}}>
-              <div className="text--center padding--md">
+          <div className="col col--12 col--md-4 margin-bottom--lg">
+            <div className="homepage-feature" style={{height: '100%', padding: '1.5rem'}}>
+              <div className="text--center">
                 <h3>Legal & Privacy</h3>
-                <p>
+                <p style={{fontSize: '0.95rem'}}>
                   Comprehensive privacy policy and legal documentation. 
                   Learn how we protect your data and respect your rights.
                 </p>
-                <div style={{
-                  display: 'flex', 
-                  flexDirection: 'column', 
-                  gap: '0.5rem',
-                  marginTop: '1rem'
-                }}>
+                <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '0.75rem'}}>
                   <Link 
-                    className="button button--outline button--primary"
+                    className="button button--outline button--primary button--sm"
                     to="/docs/legal/privacy-policy">
                     Privacy Policy
                   </Link>
                   <Link 
-                    className="button button--outline button--primary"
+                    className="button button--outline button--primary button--sm"
                     to="/docs/legal/terms-of-service">
                     Terms of Service
                   </Link>
@@ -240,10 +235,10 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageGallery />
         <HomepageFeatures />
-        <section className="padding-vert--lg" style={{backgroundColor: 'var(--ifm-background-surface-color)'}}>
+        <section className="padding-vert--lg" style={{backgroundColor: 'var(--ifm-background-color)'}}>
           <div className="container">
             <div className="row">
-              <div className="col col--12 col--lg-8" style={{margin: '0 auto'}}>
+              <div className="col col--12" style={{margin: '0 auto'}}>
                 <div className="text--center padding--md">
                   <h2>Need Help?</h2>
                   <p className="margin-bottom--lg">
@@ -253,27 +248,24 @@ export default function Home(): JSX.Element {
                   <div style={{
                     display: 'flex',
                     flexWrap: 'wrap',
-                    gap: '0.5rem',
+                    gap: '0.75rem',
                     justifyContent: 'center',
                     alignItems: 'center'
                   }}>
                     <Link 
-                      className="button button--outline button--primary"
-                      href="https://wa.me/254742233797"
-                      style={{flex: '1 1 auto', minWidth: '200px', maxWidth: '300px'}}>
+                      className="button button--primary"
+                      href="https://wa.me/254742233797">
                       💬 WhatsApp
                     </Link>
                     <Link 
                       className="button button--outline button--primary"
-                      href="mailto:info@choro.app"
-                      style={{flex: '1 1 auto', minWidth: '200px', maxWidth: '300px'}}>
-                      📧 Email Support
+                      href="mailto:info@choro.app">
+                      📧 Email
                     </Link>
                     <Link 
                       className="button button--outline button--primary"
-                      href="https://choro.app"
-                      style={{flex: '1 1 auto', minWidth: '200px', maxWidth: '300px'}}>
-                      🌐 Visit Website
+                      href="https://choro.app">
+                      🌐 Website
                     </Link>
                   </div>
                 </div>
