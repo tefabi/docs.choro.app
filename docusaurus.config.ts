@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Choro',
-  tagline: 'Modern Communication Platform',
+  tagline: 'Your Design Your Choice',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -33,7 +33,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/tefabi/docs.choro.app/tree/main/',
         },
         blog: false,
         theme: {
@@ -62,11 +61,6 @@ const config: Config = {
           href: 'https://choro.app/',
           label: 'App Website',
           position: 'left',
-        },
-        {
-          href: 'https://github.com/tefabi/docs.choro.app',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
@@ -102,26 +96,30 @@ const config: Config = {
               href: 'mailto:info@choro.app',
             },
             {
-              label: 'Privacy Policy',
-              href: 'https://docs.choro.app/docs/legal/privacy-policy',
+              label: 'WhatsApp',
+              href: 'https://wa.me/254742233797',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Connect',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/tefabi/docs.choro.app',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/choro_art_ltd',
             },
             {
-              label: 'Report Issues',
-              href: 'https://github.com/tefabi/docs.choro.app/issues',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/share/1CdkgmL8ED/',
+            },
+            {
+              label: 'Email',
+              href: 'mailto:info@choro.app',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Choro App.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Choro App. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,

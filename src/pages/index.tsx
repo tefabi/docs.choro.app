@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Get Started
+            Get Started 🚀
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
@@ -36,9 +36,113 @@ function HomepageHeader() {
   );
 }
 
+function HomepageGallery() {
+  return (
+    <section className="padding-vert--xl" style={{backgroundColor: 'var(--ifm-background-color)'}}>
+      <div className="container">
+        <div className="text--center margin-bottom--xl">
+          <Heading as="h2">Gallery</Heading>
+          <p>Explore stunning designs created with Choro</p>
+        </div>
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+          gap: '1.5rem',
+          marginTop: '2rem',
+          marginBottom: '2rem'
+        }}>
+          <div style={{gridRow: 'span 2'}}>
+            <img 
+              src="/img/sample_5.jpg" 
+              alt="Design Example 1" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                borderRadius: '12px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }} 
+            />
+          </div>
+          
+          <div>
+            <img 
+              src="/img/sample_6.jpg" 
+              alt="Design Example 2" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                borderRadius: '12px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }} 
+            />
+          </div>
+          
+          <div>
+            <img 
+              src="/img/sample_7.jpg" 
+              alt="Design Example 3" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                borderRadius: '12px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }} 
+            />
+          </div>
+          
+          <div>
+            <img 
+              src="/img/sample_8.jpg" 
+              alt="Design Example 4" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                borderRadius: '12px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }} 
+            />
+          </div>
+          
+          <div style={{gridRow: 'span 2'}}>
+            <img 
+              src="/img/sample_4.png" 
+              alt="Design Example 5" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                borderRadius: '12px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }} 
+            />
+          </div>
+          
+          <div>
+            <img 
+              src="/img/sample_3.png" 
+              alt="Design Example 6" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                borderRadius: '12px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+              }} 
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function HomepageFeatures() {
   return (
-    <section className="padding-vert--xl">
+    <section className="padding-vert--xl" style={{backgroundColor: 'var(--ifm-background-surface-color)'}}>
       <div className="container">
         <div className="row">
           {/* Getting Started Card */}
@@ -134,6 +238,7 @@ export default function Home(): JSX.Element {
       description="Complete documentation for Choro - the modern AI-powered design platform for instant professional visuals">
       <HomepageHeader />
       <main>
+        <HomepageGallery />
         <HomepageFeatures />
         <section className="padding-vert--lg" style={{backgroundColor: 'var(--ifm-background-surface-color)'}}>
           <div className="container">
