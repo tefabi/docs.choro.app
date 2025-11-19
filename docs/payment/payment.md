@@ -8,7 +8,7 @@ Choose the plan that works best for you.
 
 <div style={{textAlign: 'center', margin: '3rem 0'}}>
   <img 
-    src="/docs/images/pricing.png" 
+    src="/static/img/payment.png" 
     alt="Choro Pricing Plans" 
     style={{
       maxWidth: '100%',
