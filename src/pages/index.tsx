@@ -26,8 +26,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="https://choro.app"
-            style={{marginLeft: '0.5rem', marginTop: '0.5rem'}}>
+            to="https://choro.app">
             Visit Choro.app
           </Link>
         </div>
