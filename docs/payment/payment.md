@@ -8,7 +8,7 @@ Choose the plan that works best for you.
 
 <div style={{textAlign: 'center', margin: '3rem 0'}}>
   <img 
-    src="/static/img/payment.png" 
+    src="/img/payment.png" 
     alt="Choro Pricing Plans" 
     style={{
       maxWidth: '100%',
@@ -24,6 +24,8 @@ Choose the plan that works best for you.
 - **Pro** - Advanced tools for growing businesses *(Recommended)*
 - **Expert** - Complete solution for enterprise needs
 
-All plans include commercial licensing and professional export quality.
+All plans include commercial licensing and professional HD/4K export quality.
 
 ---
+
+**Need help choosing?** [Contact our team](https://wa.me/254742233797)
