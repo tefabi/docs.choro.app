@@ -51,7 +51,7 @@ function HomepageGallery() {
         }}>
           <div style={{gridRow: 'span 2'}}>
             <img 
-              src="/img/sample_6.jpg" 
+              src="/img/sample_7.jpg" 
               alt="Design Example 1" 
               style={{
                 width: '100%',
