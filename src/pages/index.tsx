@@ -51,7 +51,7 @@ function HomepageGallery() {
         }}>
           <div style={{gridRow: 'span 2'}}>
             <img 
-              src="/img/sample_7.jpg" 
+              src="/img/sample_7.png" 
               alt="Design Example 1" 
               style={{
                 width: '100%',
@@ -79,7 +79,7 @@ function HomepageGallery() {
           
           <div>
             <img 
-              src="/img/sample_9.webp" 
+              src="/img/sample_9.png" 
               alt="Design Example 3" 
               style={{
                 width: '100%',
@@ -93,7 +93,7 @@ function HomepageGallery() {
           
           <div>
             <img 
-              src="/img/sample_1.webp" 
+              src="/img/sample_5.jpg" 
               alt="Design Example 4" 
               style={{
                 width: '100%',
@@ -107,7 +107,7 @@ function HomepageGallery() {
           
           <div style={{gridRow: 'span 2'}}>
             <img 
-              src="/img/sample_2.webp" 
+              src="/img/sample_2.png" 
               alt="Design Example 5" 
               style={{
                 width: '100%',
