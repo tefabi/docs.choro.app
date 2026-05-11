@@ -20,9 +20,10 @@ Choose the plan that works best for you.
 
 ## Available Plans
 
-- **Basic** - Essential features for getting started
-- **Pro** - Advanced tools for growing businesses *(Recommended)*
-- **Expert** - Complete solution for enterprise needs
+- **PAYG** - Pay as you go, no monthly commitment - perfect for occasional use
+- **Basic** - Essential features for getting started with 1,000 monthly credits
+- **Pro** - Advanced tools for growing businesses with 2,700 monthly credits *(Recommended)*
+- **Expert** - Complete solution for enterprise needs with 6,050 monthly credits
 
 All plans include commercial licensing and professional HD/4K export quality.
 
